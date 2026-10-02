@@ -2,7 +2,6 @@
 
 // setTimeout,setInterval,clearTimeout,clearInterval,setImmediate
 
-import { error } from "node:console";
 import { setTimeout as sleep } from "node:timers/promises";
 
 function runSetTimeout(): void {
