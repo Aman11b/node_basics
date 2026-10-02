@@ -1,0 +1,50 @@
+{
+  "compilerOptions": {
+    // Modern JavaScript and Node.js module system
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+
+    // Node.js types
+    "types": ["node"],
+
+    // Project structure
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    // Strict type checking
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+
+    // Module compatibility
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "forceConsistentCasingInFileNames": true,
+
+    // Build output
+    "sourceMap": true,
+    "declaration": false,
+    "noEmitOnError": true,
+
+    // Modern JavaScript behavior
+    "useDefineForClassFields": true,
+    "moduleDetection": "force",
+
+    // Performance
+    "skipLibCheck": true,
+    "incremental": true,
+    "tsBuildInfoFile": "./dist/.tsbuildinfo",
+
+    // Node.js doesn't need browser APIs
+    "lib": ["ES2022"]
+  },
+
+  "include": ["src/**/*.ts"],
+
+  "exclude": ["node_modules", "dist", "coverage"]
+}

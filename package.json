@@ -1,0 +1,26 @@
+{
+  "name": "node_basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/index.js",
+    "build": "tsc",
+    "01": "tsx src/01-process-obj.ts",
+    "02": "tsx src/02-crypto-module.ts",
+    "03": "tsx src/03-os-module.ts",
+    "migration": "",
+    "unit": "",
+    "e2e": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
