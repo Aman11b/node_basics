@@ -17,6 +17,7 @@
     "08": "tsx src/08-buffers.ts",
     "09": "tsx src/09-url-module.ts",
     "10": "tsx src/10-event-emitters.ts",
+    "11": "tsx src/11-streams.ts",
     "migration": "",
     "unit": "",
     "e2e": ""
