@@ -15,6 +15,7 @@
     "06": "tsx src/06-callback-promise.ts",
     "07": "tsx src/07-fs-module.ts",
     "08": "tsx src/08-buffers.ts",
+    "09": "tsx src/09-url-module.ts",
     "migration": "",
     "unit": "",
     "e2e": ""
