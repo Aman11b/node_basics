@@ -22,7 +22,8 @@
     "13": "tsx src/13-routing.ts",
     "14": "tsx src/14-reading-body.ts",
     "15": "tsx src/15-json-response.ts",
-    "16": "tsx src/16-external-api-call.ts"
+    "16": "tsx src/16-external-api-call.ts",
+    "17": "tsx src/17-nodejs-internal.ts"
   },
   "keywords": [],
   "author": "",
