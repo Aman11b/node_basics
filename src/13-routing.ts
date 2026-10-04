@@ -7,7 +7,7 @@ const server = http.createServer(
     const method = req.method ?? "GET";
 
     // path requested by client
-    // http://locakhost:3000/users -> req.url = /users
+    // http://localhost:3000/users -> req.url = /users
     const requestUrl = new URL(
       req.url ?? "/",
       `http:${req.headers.host}
