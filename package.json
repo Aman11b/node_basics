@@ -21,7 +21,8 @@
     "12": "tsx src/12-http-server.ts",
     "13": "tsx src/13-routing.ts",
     "14": "tsx src/14-reading-body.ts",
-    "15": "tsx src/15-json-response.ts"
+    "15": "tsx src/15-json-response.ts",
+    "16": "tsx src/16-external-api-call.ts"
   },
   "keywords": [],
   "author": "",
