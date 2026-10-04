@@ -20,7 +20,8 @@
     "11": "tsx src/11-streams.ts",
     "12": "tsx src/12-http-server.ts",
     "13": "tsx src/13-routing.ts",
-    "14": "tsx src/14-reading-body.ts"
+    "14": "tsx src/14-reading-body.ts",
+    "15": "tsx src/15-json-response.ts"
   },
   "keywords": [],
   "author": "",
